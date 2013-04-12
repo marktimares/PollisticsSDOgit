@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="app_name">Pollistics</string>
+    <string name="menu_settings">Action Settings</string>
+    <string name="help">Help Screen</string>
+    <string name="menu">Main Menu Screen</string>
+    <string name="splash">Splash Screen</string>
+    <string name="settings">Settings Screen</string>
+    <string name="scores">Scores Screen</string>
+    <string name="game">Game Play Screen</string>
+    <string name="app_logo_top">Pollistics</string>
+    <string name="app_logo_bottom">Free Audience Polling</string>
+    <string name="app_version_info">Version 1.0.0\n 
+        Copyright 2013 StudioSudo.com\n 
+        All Rights Reserved
+        </string>
+    <string name="star">*</string>
+    
+    <string name="splash1ContentDescription">Graphic of 3d Pie Chart </string>
+    <string name="splash2ContentDescription">Graphic of Bar Chart with Arrow</string>
+    <string name="splash3ContentDescription">Graphic of 3d Bar Chart</string>
+    <string name="splash4ContentDescription">Graphic of Fist with smartphone</string>
+    <string name="question_placeholder">Loading&#8230;</string>
+    <string name="vote_a">Answer A</string> 
+    <string name="vote_b">Answer B</string> 
+    <string name="vote_c">Answer C</string> 
+    <string name="vote_d">Answer D</string> 
+    <string name="lorem40">Lorem ipsum dolor sit amet orci aliquam.</string>
+    <string name="refresh">Refresh</string>
+    <string name="question_header">Poll Question:</string>
+
+	<string name="http_string_vote_a">http://pollistics.com/index.php?x=a</string>
+	<string name="http_string_vote_b">http://pollistics.com/index.php?x=b</string>
+	<string name="http_string_vote_c">http://pollistics.com/index.php?x=c</string>
+	<string name="http_string_vote_d">http://pollistics.com/index.php?x=d</string>
+	
+	
+	<string name="button_r_clicked">refreshButtonClicked</string>
+	<string name="loading">Loading&#8230;</string>
+	
+	<string name="Button_Post">postAnswer</string>
+	<string name="TempPollAnswerA">Vote A</string>
+    <string name="TempPollAnswerB">Vote B</string>
+    <string name="TempPollAnswerC">Vote C</string>
+    <string name="TempPollAnswerD">Vote D</string>
+    <string name="Refresh">refreshQuestion</string>
+     <string name="menu_refresh">Refresh</string>
+
+</resources>

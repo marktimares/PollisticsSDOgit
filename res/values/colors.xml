@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color">#6699ff</color>
+ 	<color name="version_color">#009966</color>
+ 	<color name="version_bkgrd">#FFFFFF</color> 
+ 	<color name="linear_layout_bkgrd">#FFFFFF</color> 
+ 	<color name="refresh_button_color">#6699cc</color> 
+ 	<color name="black">#000000</color>
+ 	
+ 	
+ 	
+ 	    <color name="AnswerA">#7bb579</color>
+    <color name="AnswerB">#779ab2</color>
+    <color name="AnswerC">#cc8042</color>
+    <color name="AnswerD">#5b5b5b</color>
+    <color name="PollBackground">#ededde</color>
+    <color name="ActivityBackground">#000</color>
+ 	   
+</resources>

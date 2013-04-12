@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackground"
+    tools:context=".PollActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical|center_horizontal|center"
+        android:layout_margin="@dimen/BackgroundMargin"
+        android:background="@drawable/roundedcorners"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical|center_horizontal|center">
+
+            <TextView
+                android:id="@+id/questionField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/PollMargin"
+                android:padding="@dimen/QuestionPadding"
+                android:text="@string/question_placeholder"
+                android:textSize="@dimen/QuestionText" />
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/relativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/AnswerText"
+            android:gravity="fill_vertical"
+            android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonA"
+                android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/AnswerA"
+                android:minWidth="@dimen/ButtonMinWidth"
+				android:textSize="@dimen/AnswerButton"
+                android:text="@string/TempPollAnswerA"
+                android:width="@dimen/vote_button_width" />
+
+            <TextView
+                android:id="@+id/textViewA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:textSize="@dimen/AnswerButton"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonB"
+                android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/AnswerB"
+                android:minWidth="@dimen/ButtonMinWidth"
+				android:textSize="@dimen/AnswerButton"
+                android:text="@string/TempPollAnswerB"
+                android:width="@dimen/vote_button_width" />
+
+            <TextView
+                android:id="@+id/textViewB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:textSize="@dimen/AnswerButton"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonC"
+                android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/AnswerC"
+                android:minWidth="@dimen/ButtonMinWidth"
+				android:textSize="@dimen/AnswerButton"
+                android:text="@string/TempPollAnswerC"
+                android:width="@dimen/vote_button_width" />
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:textSize="@dimen/AnswerButton"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+          
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_row_padding" >
+            
+            <Button
+                android:id="@+id/buttonD"
+                android:onClick="@string/Button_Post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/AnswerD"
+                android:minWidth="@dimen/ButtonMinWidth"
+				android:textSize="@dimen/AnswerButton"
+                android:text="@string/TempPollAnswerD"
+                android:width="@dimen/vote_button_width" />
+
+            <TextView
+                android:id="@+id/textViewD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:minHeight="@dimen/answer_text_height"
+                android:padding="@dimen/selection_text_padding"
+                android:text="@string/loading"
+                android:textSize="@dimen/AnswerButton"
+                android:width="@dimen/answer_text_width" />
+            
+        </TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/PollMargin"
+            android:height="@dimen/refresh_button_height"
+            android:minHeight="@dimen/refresh_button_height"
+            android:minWidth="@dimen/refresh_button_width"
+            android:onClick="@string/Refresh"
+            android:padding="@dimen/refres_button_padding"
+            android:text="@string/menu_refresh"
+            android:width="@dimen/logo_size" />
+
+        <TextView
+            android:id="@+id/responseField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/loading" />
+           
+        </TableLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
