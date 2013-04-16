@@ -3,9 +3,41 @@ README Pollistics
 This is an initial version of the Pollistics Application.
 
 
+TO DO:
+- Mock up the entire design
+- Make Comps in Flash
+- Enhance Site
+- Android App Finished
+- iOS App Finished
+
+
 
 ENHANCEMENT IDEAS:
-- Allow Multiple Users, Polls, Questions, Answers
-- Allow Polls to be conducted individually, such as two adjascent classrooms.
+- Site: Allow Multiple Users, Polls, Questions, Answers
+
+	a) Account:
+	1  Request Account
+	2  Email Account Activation
+	3  Login Window
+	4  Forgot Password / Email Password Reset
+	5  Reset Password 
+	
+	
+	b) Poll:
+	6  Create Poll
+	7  Edit Poll
+	8  Conduct Poll
+	9  Vote 
+	10 View Poll History(Print?)
+	11 Import Poll from File(?)	
+
+
+
+- App
+	- Allow Polls to be conducted separately, such as two adjascent classrooms.(How to make this EASY/ Kid proof?)
+	- Encrypt the URI Parameters.
+	- Display Poll Results
+
+
 
 
